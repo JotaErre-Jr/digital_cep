@@ -1,0 +1,24 @@
+{
+    "name": "jjunior2/digital_cep",
+    "description": "Buscar CEP online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JotaErre",
+            "email": "rochajotaerre@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0":{
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Jjunior2\\DigitalCep\\": "src/"
+        }
+    }
+
+}
